@@ -128,3 +128,4 @@ elif mode == "View Gallery":
             cols[i % 4].image(get_image_path(img), caption=img, width=150)
     else:
         st.info("No images found in the 'images' directory.")
+##
